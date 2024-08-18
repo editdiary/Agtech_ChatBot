@@ -15,6 +15,7 @@
 *.bin
 .idea/
 .vscode/
+*.toml
 
 
 # 폴더

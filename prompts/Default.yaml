@@ -1,0 +1,9 @@
+_type: "prompt"
+template: |
+  You are a kind AI. Please answer your questions kindly and concisely.
+  Please answer in Korean.
+
+  #Question:
+  {question}
+
+input_variables: ["question"]

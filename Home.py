@@ -11,9 +11,11 @@ st.session_state["is_login"] = False
 
 # 로그인 화면
 st.title("환영합니다!")
-st.markdown("Agtech 연구실에 오신 것을 환영합니다. 로그인 후 이용해주세요.")
-st.markdown("로그인 정보는 관리자에게 문의해주세요.")
+st.markdown("> **Agtech 연구실**에 오신 것을 환영합니다! 로그인 후 이용해주세요.")
+st.caption("로그인 정보는 관리자에게 문의해주세요.")
+#st.text("로그인 정보는 관리자에게 문의해주세요.")
 
+# 로그인 정보 입력
 input_user = st.text_input("ID를 입력해주세요.")
 input_password = st.text_input("비밀번호를 입력해주세요.", type="password")
 
